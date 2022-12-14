@@ -3,7 +3,7 @@ agent any
     stages {
         stage('build') {
             steps {
-                sh 'desktop /python-foundations-3-weeks/examples/week_1'
+                sh 'python3 /python-foundations-3-weeks/examples/week_1'
             }
         }
     }
